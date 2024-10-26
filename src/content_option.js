@@ -92,7 +92,7 @@ const dataportfolio = [{
         link: "http://mvpdemo.info/",
     },
     {
-        img: "/capture.PNG",
+        img: "/cikkle.jpg",
         description: "Clikkle",
         link: "https://clikkle.com/",
     },
