@@ -1,39 +1,35 @@
-const logotext = "Imran Farooq";
+const logotext = "Ayesha Azeem";
 const meta = {
-    title: "Imran Farooq",
-    description: "I’m Imran Farooq software engineer _ Full stack devloper,currently working in Berlin",
+    title: "Ayesha Azeem",
+    description: "I’m Ayesha Azeem software engineer _ Full stack devloper, currently working in Tritech Interactive",
 };
 
 const introdata = {
-    title: "I’m Imran Farooq",
+    title: "I’m Ayesha Azeem",
     animated: {
-        first: "Full Stack Developer",
-        second: "MERN Stack",
-        third: "AWS",
+        first: "MERN Stack Developer",
+        second: "Frontend Developer",
+        third: "Software Engineer",
     },
-    description: "A skilled MERN Stack developer with expertise in AWS, utilizing services like Lambda, EC2, and S3 buckets to build scalable and efficient applications.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I'm a MERN stack developer with expertise in React js, Next.js, TypeScript, and CSS frameworks like Tailwind and Ant Design. Skilled in building dynamic web applications, I thrive in fast-paced, collaborative environments.",
+    your_img_url: "/img.jpg",
 };
 
 const dataabout = {
     title: "about my self",
-    aboutme: "I am a versatile MERN Stack developer with a strong background in building scalable web applications using both JavaScript and TypeScript. Alongside my expertise in AWS services like Lambda, EC2, and S3 buckets, I have experience working with other technology stacks, enabling me to deliver efficient and modern cloud-based solutions.",
+    aboutme: "I'm a MERN stack developer with expertise in Next.js, TypeScript, and CSS frameworks like Tailwind and Ant Design. Skilled in building dynamic web applications, I thrive in fast-paced, collaborative environments.",
 };
 const worktimeline = [{
         jobtitle: "MERN Stack Developer",
-        where: "Code's Thinker Bahawalpur",
+        where: "Tritech Interactive",
         date: "2023 - Present",
     },
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "Jamalya",
-    //     date: "2019",
-    // },
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "ALquds",
-    //     date: "2019",
-    // },
+    {
+        jobtitle: "Frontend Developer",
+        where: "Maaq Services",
+        date: "2024",
+    },
+
 ];
 
 const skills = [{
@@ -42,6 +38,10 @@ const skills = [{
     },
     {
         name: "React Js",
+        value: 90,
+    },
+    {
+        name: "Next Js",
         value: 90,
     },
     {
@@ -57,15 +57,19 @@ const skills = [{
         value: 85,
     },
     {
-        name: "RTK",
-        value: 90,
-    },
-    {
         name: "React Query",
         value: 80,
     },
     {
-        name: "MUI",
+        name: "Bootstrap",
+        value: 85,
+    },
+    {
+        name: "Tailwind",
+        value: 90,
+    },
+    {
+        name: "Ant design",
         value: 90,
     },
 ];
@@ -76,10 +80,6 @@ const services = [
         description: "We provide end-to-end web application development, from sleek front-end designs to powerful back-end systems. Using the latest technologies like the MERN Stack and AWS, we deliver scalable, efficient solutions tailored to your needs.",
     },
     {
-        title: "Seamless Deployment & Maintenance",
-        description: "We handle the seamless launch and maintenance of your application, managing cloud setups and performance to ensure reliability and scalability. Our end-to-end deployment ensures your app runs smoothly from day one and continues to perform optimally.",
-    },
-    {
         title: "Expert Front End & Backend Solutions",
         description: "We offer comprehensive development and maintenance services for both front-end and back-end, ensuring your application is always up-to-date and performs at its best.",
     },
@@ -87,87 +87,54 @@ const services = [
 
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "/test.jpg",
+        description: "anesthesiology board preparation",
+        link: "http://mvpdemo.info/",
+    },
+    {
+        img: "/capture.PNG",
+        description: "Clikkle",
+        link: "https://clikkle.com/",
+    },
+    {
+        img: "/food.jpg",
+        description: "Online Food Rstaurants  App",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/carbot.jpg",
+        description: "CareBot",
+        link: "https://www.carebot.com/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/beester.jpg",
+        description: "Beester",
+        link: "https://beester.beesterapp.com/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/lms.jpg",
+        description: "LMS Client",
+        link: "https://lms-client-hazel.vercel.app/",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+   
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "imranf620@gmail.com",
-    YOUR_FONE: "+92 317 656 5404",
+    YOUR_EMAIL: "ayeshaaazeem690@gmail.com",
     description: "I’m here to help with any inquiries or project discussions you may have. Feel free to reach out via email or phone. Whether you have questions about my services, want to discuss a potential project, or need assistance, I’m just a message or call away.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_cg4guzn",
+    YOUR_SERVICE_ID: "service_zua6wbv",
     // YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_7p551jf",
+    YOUR_TEMPLATE_ID: "template_jhbi3xm",
     // YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "nKSSJ2z2EXTOzJarE",
+    YOUR_USER_ID: "Ja9yZ4ZkE9fLvq4vS",
     // YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com/Imranf620/",
-    facebook: "https://www.facebook.com/imranf620?mibextid=ZbWKwL",
-    linkedin: "https://www.linkedin.com/in/imranfarooqqaisrani/",
-    twitter: "https://twitter.com",
+    github: "https://github.com/IDevAyesha",
+    linkedin: "https://www.linkedin.com/in/ayesha-azeem-910993249/",
 };
 export {
     meta,
