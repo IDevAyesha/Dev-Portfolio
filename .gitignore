@@ -12,7 +12,6 @@ next-env.d.ts
 
 # env files
 .env*.local
-.env
 
 # vercel
 .vercel
@@ -20,3 +19,4 @@ next-env.d.ts
 # misc
 .DS_Store
 npm-debug.log*
+config.bat
